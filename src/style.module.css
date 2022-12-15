@@ -1,0 +1,80 @@
+*{
+background-color:rgb(66, 23, 106); 
+font-family: sans-serif;
+}
+
+.header{
+color: white;
+font-size: 42px;
+padding: 8px;
+display: flex;
+justify-content: center; 
+border-radius: 15px;
+background-color:rgb(95, 18, 166);
+}
+
+.todoform{
+display: flex;
+justify-content: center;
+margin: 20px;
+}
+
+.todoinput{
+color: rgb(255, 255, 255);
+border: none;
+font-size: 1.5rem;
+height: 60px;
+border-radius: 10px 0 0 10px;
+padding: 0 0 0 35px;
+background-color:rgb(95, 18, 166);
+}
+
+::placeholder{
+color:rgba(235, 230, 230, 0.914);
+
+}
+
+.todoinput:focus{
+outline: none;
+}
+
+.todobutton{
+border: none;
+border-radius: 0 10px 10px 0;
+color: white;
+padding: 10px;
+font-size: 1.5rem;;
+background-color:rgb(95, 18, 166);
+}
+
+.todoitem{
+    display: flex;
+    background-color: rgb(126, 28, 218);
+}
+
+.todoname{
+    font-weight: bold;
+    padding: 0 7px 7px 0;
+    color: white;
+    background-color: rgb(126, 28, 218);
+
+}
+
+.deletebutton{
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 28, 218);
+    border-radius: 1.5rem;
+    margin: 10px;
+    position: relative;
+    left: 23rem;
+    width: 40rem;
+}
